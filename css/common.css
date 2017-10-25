@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.footer {
+  width: 100%;
+  background: #080922;
+  height: 144px; }
+  .footer p {
+    margin: 0 auto;
+    width: 100%;
+    height: 126px;
+    padding-top: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 9px;
+    line-height: 23px;
+    font-family: "微软雅黑";
+    text-align: center; }
+
+body {
+  background: #010101; }
+
+
+
+.page {
+  display: inline-block;
+  margin-top: 80px;
+  border: 1px solid #666666; }
+  .page li a {
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-right: 1px solid #666666;
+    text-align: center;
+    font-size: 10px;
+    color: #424242;
+    line-height: 34px; }
+  .page li .comPageOn {
+    background: #b52c28;
+    color: #fff; }
+  .page li:last-child a {
+    border-right: 0; }
+
+.videoPlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.7); }
+  .videoPlay .videoPlayCon {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .videoPlay .videoPlayCon video {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
+
+.videoPlayNone {
+  display: none; }
+
+#rocket-to-top {
+  background: url("../images/rocket_button_up.png") no-repeat scroll 0 0 transparent;
+  cursor: default;
+  display: block;
+  height: 250px;
+  margin: -125px 0 0;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  right: 0;
+  top: 80%;
+  width: 149px;
+  z-index: 11; }
+  #rocket-to-top div {
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 149px; }
+  #rocket-to-top .level-2 {
+    background: url("../images/rocket_button_up.png") no-repeat scroll -149px 0 transparent;
+    display: none;
+    height: 250px;
+    opacity: 0;
+    z-index: 1; }
+  #rocket-to-top .level-3 {
+    background: none repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 150px;
+    z-index: 2; }
