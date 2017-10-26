@@ -11,6 +11,7 @@ $(function(){
 			//点击新闻中心切换
 			$(".info .title li").hover(function(){
 				var i = $(this).index();
+				$(this).find("a").addClass("active").parent().siblings().find("a").removeClass("active");
 				$(this).parents(".title").siblings().find("ul").eq(i).show().siblings().hide();
 			});
 			//角色介绍男女角色切换
@@ -84,12 +85,10 @@ $(function(){
 			//跳转到职业介绍和游戏截图
 			$(".roleInfo").on("click",function(){
 				var h =$(".roles").offset().top;
-				console.log(h);
 				$('body,html').animate({scrollTop:h},500);
 			});
 			$(".playPhot").on("click",function(){
 				var h =$(".pic").offset().top;
-				console.log(h);
 				$('body,html').animate({scrollTop:h},500);
 			});
 		},

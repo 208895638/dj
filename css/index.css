@@ -55,9 +55,9 @@ body {
           .topBar .topBox .nav li a .small {
             text-align: center;
             font: 12px/33px "微软雅黑"; }
-          .topBar .topBox .nav li a .on {
-            color: #ffee5c; }
         .topBar .topBox .nav li a:hover .com {
+          color: #ffee5c; }
+        .topBar .topBox .nav li .on {
           color: #ffee5c; }
   .topBar .botBox {
     width: 100%;
@@ -594,13 +594,16 @@ body {
         display: block;
         width: 217px;
         height: 90px;
-        margin-top: 39px; }
+        margin-top: 39px;
+        color: #9a9a9a; }
       .footer .box h2 img {
         height: 50px; }
     .footer .box p {
       text-align: left;
       font: 8px/18px "微软雅黑";
       color: #9a9a9a; }
+      .footer .box p a {
+        color: #9a9a9a; }
 
 .newsInfo {
   width: 100%;
@@ -634,22 +637,24 @@ body {
         width: 100%;
         height: 44px;
         background: url(../images/news_tiao_03.png) no-repeat center; }
-      .newsInfo .box .aside .codeGroup dl dt {
-        width: 100%;
-        height: 136px;
-        font-size: 30px;
-        font-weight: 600;
-        text-align: center;
-        line-height: 100px;
-        color: #fff; }
-        .newsInfo .box .aside .codeGroup dl dt img {
+      .newsInfo .box .aside .codeGroup dl {
+        height: 192px; }
+        .newsInfo .box .aside .codeGroup dl dt {
+          width: 100%;
           height: 136px;
-          margin: 0 auto; }
-      .newsInfo .box .aside .codeGroup dl dd {
-        font: 18px/28px "微软雅黑";
-        color: #ffffff;
-        font-weight: 600;
-        text-align: center; }
+          font-size: 30px;
+          font-weight: 600;
+          text-align: center;
+          line-height: 100px;
+          color: #fff; }
+          .newsInfo .box .aside .codeGroup dl dt img {
+            height: 136px;
+            margin: 0 auto; }
+        .newsInfo .box .aside .codeGroup dl dd {
+          font: 18px/28px "微软雅黑";
+          color: #ffffff;
+          font-weight: 600;
+          text-align: center; }
       .newsInfo .box .aside .wbAndwx ul {
         text-align: center;
         font-size: 0;
@@ -741,7 +746,7 @@ body {
             .newsInfo .box .hGroup .groups .groupsTop li a:hover {
               border-bottom: 4px solid #70151b; }
             .newsInfo .box .hGroup .groups .groupsTop li .on {
-              border-bottom: 2px solid #70151b; }
+              border-bottom: 4px solid #70151b; }
         .newsInfo .box .hGroup .groups .groupsCon {
           padding-top: 32px; }
           .newsInfo .box .hGroup .groups .groupsCon ul {

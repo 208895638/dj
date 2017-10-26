@@ -71,15 +71,16 @@ body{
                         font:12px/33px "微软雅黑";
                     }
                     
-                    .on{
-                        color: #ffee5c;
-                    }
+                    
                }
                a:hover{
                    .com{
                        color: #ffee5c;
                    }                    
                 }
+                .on{
+                        color: #ffee5c;
+                    }
            }
        }
    }
@@ -759,6 +760,7 @@ body{
                 width: 217px;
                 height: 90px;
                 margin-top: 39px;
+                color: #9a9a9a;
             }
             img{
                 height: 50px;
@@ -768,6 +770,9 @@ body{
             text-align: left;
             font:8px/18px "微软雅黑";
             color: #9a9a9a;
+            a{
+                color: #9a9a9a;
+            }
         }
     }
 }
@@ -811,6 +816,7 @@ body{
             }
             .codeGroup{
                 dl{
+                    height: 192px;
                     dt{
                         width: 100%;
                         height: 136px;
@@ -957,7 +963,7 @@ body{
                             border-bottom: 4px solid #70151b;
                         }
                         .on{
-                            border-bottom: 2px solid #70151b;
+                            border-bottom: 4px solid #70151b;
                         }
                     }
                 }

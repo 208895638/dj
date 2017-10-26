@@ -15,6 +15,10 @@ $(function(){
 				var i = $(this).index();
 				$(".groupsCon .pers").eq(i).show().siblings().hide();
 			})
+			//底部导航栏的切换
+			$(".groupsTop li").hover(function(){
+				$(this).find("a").addClass("on").parent().siblings().find("a").removeClass("on");
+			});
 		},
 		render:function(){
 			
